@@ -3,9 +3,9 @@ sourcekitten-output.json
 docs/
 /.build
 /Packages
-/*.xcodeproj
+#/*.xcodeproj
 **/xcuserdata
-**/xcshareddata
+#**/xcshareddata
 Pods/
 Carthage/
 Examples/Examples.xcworkspace
