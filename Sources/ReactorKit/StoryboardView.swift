@@ -9,8 +9,6 @@ import AppKit
 private typealias OSViewController = NSViewController
 #endif
 
-import WeakMapTable
-
 private typealias AnyView = AnyObject
 private enum MapTables {
   static let reactor = WeakMapTable<AnyView, Any>()
